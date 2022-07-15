@@ -8,6 +8,7 @@
   <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
   <title>Venture Media Agency</title>
   <meta name='description' content="" />
+  
   <meta name="keywords" content="" />
   <meta name="it-rating" content="it-rat-cd303c3f80473535b3c667d0d67a7a11" />
   <meta name="cmsmagazine" content="3f86e43372e678604d35804a67860df7" />
@@ -27,49 +28,27 @@
         <div class="wrapper">
           <div class="screen-main">
             <h1 class="h1 h1-main">We help <div style="display: flex;"><div class="tolower">e</div>Commerce</div> Businesses <span style="color: #126bdf">SkyRocket</span></h1>
-            <a href="#" class="btn btn_learn" style="display: flex;">Schedule your FREE Audit Call Today</a>
+            <a href="#discoverycall" class="btn btn_learn" style="display: flex;">Schedule your FREE Audit Call Today</a>
           </div>
         </div>
       </div>
       <div class="section-services-main" id="services">
         <div class="wrapper">
-          <div class="services">
-            <div class="services__item">
+          <div class="services" style="display: flex; justify-content:center">
+            
+            <div class="services__item" style="padding-top: 40px;position: relative;">
+              <div class=" h1 h1-main" style="position:absolute;z-index:100; top:0; left: 0;
+              right: 0;
+              margin: 0 auto; font-size: 30px;">What We Offer</div>
+
               <div class="services__decor"></div>
-              <div class="services__icon">
-                <img src="img/icons-svg/exellence-1.svg" alt="" loading="lazy">
-              </div>
-              <div class="services__title">SEO Consultancy</div>
-              <div class="services__text">Dolor enim dolor labore velit nulla sit exercitation proident esse culpa
-                commodo n irure esse velit commodo.</div>
-            </div>
-            <div class="services__item">
-              <div class="services__decor"></div>
-              <div class="services__icon">
+              <div class="services__icon" >
                 <img src="img/icons-svg/exellence-2.svg" alt="" loading="lazy">
               </div>
-              <div class="services__title">Site Optimization</div>
-              <div class="services__text">Voluptate in sunt commodo aute do. Dolor enim dolor labore velit nulla sit
-                exetion irure esse proid.</div>
+              <div class="services__title">Paid Advertising</div>
+              <div class="services__text">As we're focused on the Return on your investemnt we're limiting our services to only one : <b style="color: #126bdf">PAID ADS</b></div>
             </div>
-            <div class="services__item">
-              <div class="services__decor"></div>
-              <div class="services__icon">
-                <img src="img/icons-svg/exellence-3.svg" alt="" loading="lazy">
-              </div>
-              <div class="services__title">Page Rankings</div>
-              <div class="services__text">Dolor enim dolor labore velit nulla sit exercitation proident esse culpa
-                commodo n irure esse velit commodo.</div>
-            </div>
-            <div class="services__item">
-              <div class="services__decor"></div>
-              <div class="services__icon">
-                <img src="img/icons-svg/exellence-4.svg" alt="" loading="lazy">
-              </div>
-              <div class="services__title">Trafic Generation</div>
-              <div class="services__text">Voluptate in sunt commodo aute do. Dolor enim dolor labore velit nulla sit
-                exetion irure esse proid.</div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -199,43 +178,18 @@
           </div>
         </div>
       </div> -->
-      <div class="section-consultation">
+      <div class="section-consultation" id="discoverycall">
         <div class="section-consultation__bg js-lazy" data-src="img/bg/bg-2.svg"></div>
         <div class="wrapper">
           <div class="consultation-form-wrap">
             <div class="consultation-form">
               <h2 class="h2">get a free consultation</h2>
               <div class="content-block__text">
-                <p>Dolor duis voluptate enim exercitation consequat ex. Voluptate in sunt commodo aute dolor enim dolor
-                  labore velit nul.</p>
+                <!-- <p>Dolor duis voluptate enim exercitation consequat ex. Voluptate in sunt commodo aute dolor enim dolor
+                  labore velit nul.</p> -->
               </div>
               <div class="consultation-form__form">
-                <form onsubmit="successSubmit();return false;">
-                  <div class="box-fileds">
-                    <div class="box-filed">
-                      <input type="text" placeholder="First name">
-                    </div>
-                    <div class="box-filed">
-                      <input type="text" placeholder="Second name">
-                    </div>
-                    <div class="box-filed">
-                      <input type="tel" placeholder="Enter your phone">
-                    </div>
-                    <div class="box-filed">
-                      <input type="email" placeholder="Enter your email">
-                    </div>
-                    <div class="box-filed box-filed_btn">
-                      <input type="submit" class="btn" value="Submit">
-                    </div>
-                    <div class="box-filed box-field__accept">
-                      <label class="checkbox-element">
-                        <input type="checkbox">
-                        <span class="checkbox-text">I accept the <a href="#" target="_blank">Terms and
-                            Conditions.</a></span>
-                      </label>
-                    </div>
-                  </div>
-                </form>
+                <a href="https://zcal.co/baamelyoussef/venturediscovery"><input type="button" class="btn" value="Schedule Now"></a>
               </div>
             </div>
             <div class="consultation-img">
@@ -640,8 +594,7 @@
           <div class="popup-title">Get a free consultation</div>
           <div class="popup-decor-top"></div>
         </div>
-        <div class="popup-text">Culpa non ex tempor qui nulla laborum. Laboris culpa ea incididunt dolore ipsum tempor
-          duis do ullamc.</div>
+        <input type="button" class="btn"></button>
         <form onsubmit="successSubmit();return false;">
           <div class="popup-form">
             <div class="box-field">
@@ -691,6 +644,23 @@
       </div>
     </div>
   </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    successSubmit=()=>{
+
+      Email.send({
+      Host : "smtp.yourisp.com",
+      Username : "username",
+      Password : "password",
+      To : 'imbaamelyoussef@gmail.com',
+      From : "you@isp.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+    }
+  </script>
   <script>
     var body = document.body;
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
