@@ -410,6 +410,11 @@ line-height: 150%;
     height: 17.9rem;
 }
 }
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
 @media screen and (max-width: 1366px) {
 .pages-wrapper {
     margin-top: 10.1rem;
@@ -421,6 +426,15 @@ line-height: 150%;
             min-height: 0
         }
 }
+@media screen and (max-width: 440px) { 
+    .adj{
+      position: absolute;
+      right: 18px;
+      bottom: -99px;
+      width: 162px;
+    }
+   }
+   
 @media screen and (max-width: 1280px) {
     .h1-main {
         font-size: 6.8rem

@@ -151,7 +151,20 @@ html {
 	font-size: 9px !important;
 }
 }
-
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
+@media screen and (max-width: 440px) { 
+	.adj{
+	  position: absolute;
+	  right: 18px;
+	  bottom: -99px;
+	  width: 162px;
+	}
+   }
+   
 
 @media screen and (max-width: 1023px) {
 body {

@@ -692,7 +692,11 @@ line-height: 2.2rem;
 		display: none !important;
 	}
 }
-
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
 @media screen and (min-width: 1024px) {
 	.tablet-show {
 		display: none;

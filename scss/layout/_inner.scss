@@ -207,6 +207,11 @@ body:not(.loaded) .article-author:before {
 		padding: 3.5rem 2.5rem
 	}
 }
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
 @media screen and (max-width: 1023px) {
     .stories {
         margin: 0 -1.5rem;

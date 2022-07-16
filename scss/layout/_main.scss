@@ -752,7 +752,33 @@ opacity: 0.15;
         margin-bottom: 0.5rem;
     }
 }
-
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
+@media screen and (max-width: 440px) { 
+    .adj{
+      position: absolute;
+      right: 18px;
+      bottom: -99px;
+      width: 162px;
+    }
+   }
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
+@media screen and (max-width: 440px) { 
+    .adj{
+      position: absolute;
+      right: 18px;
+      bottom: -99px;
+      width: 162px;
+    }
+   }
+   
 @media screen and (max-width: 1023px) {
     .testimonials-card__text {
         font-size: 1.9rem;
@@ -845,9 +871,7 @@ opacity: 0.15;
     .steps {
         margin-top: 5rem
     }
-    .consultation-img {
-        display: none
-    }
+    
     .section-consultation__bg {
         background: linear-gradient(305.32deg, rgba(#DBDFF3, .45) 0.03%, rgba(241, 249, 255, 0.03) 99.52%) !important;
     }

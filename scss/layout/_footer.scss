@@ -114,6 +114,11 @@ color: #646A89;
     margin-left: 3rem;
 }
 }
+@media screen and (max-width: 440px) { 
+    .mt-100{
+        margin-top: 100px !important;
+    }
+   }
 @media screen and (max-width: 1023px) {
 	.footer {
 
