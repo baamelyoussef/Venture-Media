@@ -2346,6 +2346,11 @@ button.swiper-pagination-bullet {
     background-size: auto 100%;
   }
 }
+@media screen and (max-width: 952px) {
+  .rp{
+    flex-direction: column-reverse;
+  }
+}
 
 @media screen and (max-width: 1100px) {
   .prices__head {
@@ -2411,7 +2416,7 @@ button.swiper-pagination-bullet {
     font-size: 6rem;
   }
 }
-
+ 
 @media screen and (max-width: 767px) {
   .section-about {
     margin-top: 5rem;
