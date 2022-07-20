@@ -2349,6 +2349,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 952px) {
   .rp{
     flex-direction: column-reverse;
+    flex-wrap: nowrap !important;
   }
 }
 
