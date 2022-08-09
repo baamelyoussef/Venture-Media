@@ -13,7 +13,9 @@ body {
   line-height: 1.7;
   background: #fff;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html {
   font-size: 10px !important;
 }

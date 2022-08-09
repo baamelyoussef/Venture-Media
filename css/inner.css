@@ -5,7 +5,9 @@
 .ui-helper-hidden {
   display: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .ui-helper-reset {
   margin: 0;
   padding: 0;

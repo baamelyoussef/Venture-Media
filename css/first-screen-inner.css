@@ -1,5 +1,8 @@
 /* reset */
 /* main variables */
+html {
+  scroll-behavior: smooth;
+}
 .breadcrumbs {
   text-transform: none;
   font-size: 1.4rem;

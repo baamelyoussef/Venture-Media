@@ -3,7 +3,9 @@
 .compensate-for-scrollbar {
   margin-right: 0 !important;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .fancybox-is-hidden {
   left: -999.9rem;
   margin: 0;
